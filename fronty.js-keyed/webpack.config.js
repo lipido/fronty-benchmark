@@ -35,7 +35,7 @@ module.exports = [{
 		],
 		alias: {
       handlebars: 'handlebars/dist/handlebars.min.js',
-      fronty: 'fronty.js'
+      fronty: 'fronty.js/dist/fronty.js'
 		}
 	}
 }];

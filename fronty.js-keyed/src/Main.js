@@ -2,11 +2,8 @@
 
 import Handlebars from 'handlebars'
 import {
-    Model
-} from 'fronty.js'
-import {
-    ModelComponent
-} from 'fronty.js'
+    Component, Model, ModelComponent
+} from 'fronty'
 
 var startTime;
 var lastMeasure;
@@ -83,9 +80,9 @@ class MainComponent extends ModelComponent {
     }
 
     createChildModelComponent(className, element, id, modelItem) {
-        if (className === 'DataItemComponent') {
+        //if (className === 'DataItemComponent') {
             return new DataItemComponent(id, modelItem);
-        }
+        //}
     }
 
     swapRows() {
